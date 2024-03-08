@@ -1,0 +1,63 @@
+.list-group-item {
+  border-bottom: 1px solid grey; /* 1px border at the bottom */
+  padding-top: 10px;
+}
+
+  .autocomplete li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .autocomplete li:hover {
+    background-color: #f4f4f4;
+  }
+
+  .list-group-item:hover {
+    background-color: #f5f0f0; /* Change to whatever background color you desire */
+  }
+  .cardautocomplete {
+    width: 100%; /* Set the width */
+    height: 100%; /* Set the height */
+    position: relative;
+
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.card {
+}
+
+.input-container {
+  width: 100%;
+}
+
+input {
+  width: 98%;
+  font: inherit;
+  border: 1px solid #ccc;
+}
+.form-group {
+  width: 70%;
+  margin: 0 auto; 
+  position: relative;
+}
+
+.autocomplete-overlay {
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+}
+
+.radio-button-container {
+  display: flex;
+  margin: 0 auto; 
+
+}
+
+.radio-button-label {
+  margin-right: 10px; /* Adjust spacing between radio buttons */
+}
