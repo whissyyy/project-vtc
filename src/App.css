@@ -1,6 +1,22 @@
 .App {
   text-align: center;
+  font-family: "Lekton", sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
 }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  /* Autres styles modernes pour les paragraphes */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  /* Autres styles modernes pour les titres */
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -27,6 +43,132 @@
 .App-link {
   color: #61dafb;
 }
+
+.lekton-regular {
+  font-family: "Lekton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lekton-bold {
+  font-family: "Lekton", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lekton-regular-italic {
+  font-family: "Lekton", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+
+
+
+/* Styles généraux pour le footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Conteneur pour les sections du footer */
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Style des sections du footer */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.footer-section.about {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.footer-section.links {
+  flex: 1;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #c5aa6a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.socials a {
+  color: #c5aa6a;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #fff;
+}
+
+/* Style pour le bas du footer */
+.footer-bottom {
+  text-align: center;
+  background-color: #222;
+  padding: 15 px 0;
+  font-size: 14px;
+}
+
+.footer-bottom span {
+  color: #c5aa6a;
+}
+
+.footer-bottom a {
+  color: #c5aa6a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,0 +1,44 @@
+
+/*
+.about{
+    padding: 3%;
+    
+}
+
+p{
+font-size: 24px;
+}*/
+
+.about {
+    font-family: Arial, sans-serif; /* Choisir une police de caractères appropriée */
+   
+    margin: 0 auto; /* Centrer le paragraphe horizontalement */
+    padding: 3%; /* Ajouter un espace autour du contenu */
+    background-color: #f9f9f9; /* Ajouter une couleur de fond */
+    border-radius: 10px; /* Ajouter des coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère */
+  }
+  
+  .about p {
+    line-height: 1.6; /* Définir la hauteur de ligne pour améliorer la lisibilité */
+    color: #333; /* Choisir une couleur de texte adaptée */
+  }
+  
+  .about p:first-child {
+    margin-top: 0; /* Supprimer la marge supérieure du premier paragraphe */
+  }
+  
+  .about p:last-child {
+    margin-bottom: 0; /* Supprimer la marge inférieure du dernier paragraphe */
+  }
+  
+  .about p ::first-letter {
+    font-size: 150%; /* Augmenter la taille de la première lettre */
+    font-weight: bold; /* Mettre en gras la première lettre */
+    color: rgb(216, 148, 21); /* Choisir une couleur pour la première lettre */
+  }
+  
+  
+  
+
+  

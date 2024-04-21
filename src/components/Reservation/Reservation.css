@@ -1,0 +1,114 @@
+
+
+.black-border {
+  border-bottom: 2px solid  grey; /* 5px border at the bottom */
+}
+.bgimage{
+  background-image: url('mrc.png');
+  
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+}
+.azeaze{
+  background-image: url('mrc.png');
+  background-repeat: no-repeat;
+  background-size: 120%;
+
+}
+
+.bgt{
+  background-color:#edf1f7;
+}
+
+.kranky-regular {
+  font-family: "Kranky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  
+
+  .list-group-item:hover {
+    background-color: #f5f0f0; /* Change to whatever background color you desire */
+  }
+  .cardautocomplete {
+    width: 100%; /* Set the width */
+    height: 100%; /* Set the height */
+    position: relative;
+    padding-top: -5%;
+
+}
+.margin-row{
+margin: 8%;
+
+}
+
+
+.input-container {
+  width: 50%;
+}
+
+.transparent-card {
+  background-color: transparent;
+}
+
+.input {
+  width: 50%;
+  font: inherit;
+  border: 1px solid #ccc;
+}
+.form-group {
+  width: 50%;
+  margin: 0 auto; 
+  position: relative;
+}
+
+.autocomplete-overlay {
+  position: absolute;
+  left: 0;
+  z-index: 999;
+
+  width: 100%;
+  background-color: white;
+  border-left: 2px solid #dcdcdc; /*#e9ecef */
+  border-right: 2px solid #dcdcdc; /* 1px border at the bottom */
+  border-bottom: 2px solid #dcdcdc; /* 1px border at the bottom */
+
+}
+
+.radio-button-container {
+  margin: auto; 
+
+}
+
+.radio-button-label {
+  margin-right: 10px; /* Adjust spacing between radio buttons */
+}
+
+
+.pstyle p{font-size: 20px;
+  font-size: 20px; /* Taille de police */
+    font-family: Arial, sans-serif; /* Police de caractères */
+  
+    color:rgb(92, 80, 80); /* Couleur de texte */
+
+    padding: 20px; /* Espacement intérieur */
+    
+}
+
+
+
+.radio-button-container label {
+  margin-right: 10px; /* Adjust the margin to your preference */
+}
+
+
+
+
+

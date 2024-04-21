@@ -1,0 +1,49 @@
+
+  
+  input:focus {
+    outline: none; /* Supprime la bordure de focus */
+    border-color: #007bff; /* Change la couleur de la bordure lorsqu'il est en focus */
+  }
+  
+  .date-input {
+    width: 40%; /* Réduit légèrement la largeur pour inclure le bouton de calendrier */
+    border-radius: 5px; /* Arrondit les coins des champs de saisie */
+    border: 1px solid #ccc; /* Ajoute une bordure autour des champs de saisie */
+    padding-top: 8px; /* Réduit légèrement l'espacement interne */
+    margin-top: 10px; /* Ajoute un espace en haut du champ de saisie */
+}
+.time-input{
+  width: 20%; /* Réduit légèrement la largeur pour inclure le bouton de calendrier */
+  border-radius: 5px; /* Arrondit les coins des champs de saisie */
+  border: 1px solid #ccc; /* Ajoute une bordure autour des champs de saisie */
+  padding: 8px; /* Réduit légèrement l'espacement interne */
+  margin-top: 5px; /* Ajoute un espace en haut du champ de saisie */
+
+}
+button {
+    padding: 8px 12px; /* Ajuste le padding du bouton */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; 
+  
+  }
+
+  .date-div{
+    padding-bottom: 3%;
+  }
+  
+  @media (min-width: 800px) {
+    /* CSS rules that apply when viewport width is greater than 800px */
+    /* For example: */
+    .vtc-dateheure {
+      width:"10%";margin:"auto";
+  }
+}
+@media (max-width: 800px) {
+  /* CSS rules that apply when viewport width is greater than 800px */
+  /* For example: */
+  .vtc-dateheure {
+    width:"10%";margin:"auto";
+}
+}

@@ -1,0 +1,21 @@
+.navbar-nav .nav-link:hover {
+    color: white; /* Change this to the desired hover color */
+    text-decoration: underline; /* Underline the text on hover */
+  }
+ 
+  
+  .navbar-nav .nav-link.active {
+    color: #ffffff; /* Change this to the desired active link color */
+  }
+
+  
+  .navbar-nav .nav-link img:hover {
+    opacity: 0.8; /* Change this to adjust the hover opacity for the WhatsApp icon */
+  }
+  .navbar-nav .nav-link {
+    font-size: 24px; /* Change this to the desired font size */
+    font-weight: bold;
+    color: white;
+  }
+ 
+  .navmrg{margin-left: auto;}
