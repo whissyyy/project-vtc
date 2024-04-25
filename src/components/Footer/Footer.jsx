@@ -17,7 +17,7 @@ export const Footer = () => {
           <h2 className="logo">Ultimate Drivers</h2>
           <div className="contact" style={{ paddingRight: "10%" }}>
             <span><FontAwesomeIcon icon={faPhone} /> 07-695-753-19</span>
-            <span><FontAwesomeIcon icon={faEnvelope} style={{ paddingRight: '10px' }} /> ultimatedrivervtc@gmail.com</span>
+            <span><FontAwesomeIcon icon={faEnvelope} style={{ paddingRight: '10px'  }} /> ultimatedrivervtc@gmail.com</span>
             <FontAwesomeIcon icon={faTwitter} style={{ paddingRight: '10px' }} />
             <FontAwesomeIcon icon={faInstagram} style={{ paddingRight: '10px' }} />
             <FontAwesomeIcon icon={faFacebook} />

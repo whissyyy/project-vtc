@@ -16,7 +16,7 @@ const IconCard = () => {
 </h3>
 
         <Row style={{paddingTop:"2%"}}>
-            <Col xs={12} sm={6} md={3}>
+            <Col xs={12} sm={6} md={3} style={{paddingBottom:"3%"}}>
           <Card style={{backgroundColor:"#edf1f7"}}>
             <div>
           <FontAwesomeIcon icon={faBottleWater} size="lg" style={{ width: '120px', height: '120px' }} />
@@ -27,7 +27,7 @@ const IconCard = () => {
             </Card.Body>           
             </Card>
             </Col>
-            <Col xs={12} sm={6} md={3}>
+            <Col xs={12} sm={6} md={3} style={{paddingBottom:"3%"}}>
             <Card  style={{backgroundColor:"#edf1f7"}}>  
             <div>
           <FontAwesomeIcon icon={faSuitcase} size="lg" style={{ width: '120px', height: '120px' }} />
@@ -40,7 +40,7 @@ const IconCard = () => {
             </Card.Body>           
             </Card> 
             </Col>
-            <Col xs={12} sm={6} md={3}>  <Card  style={{backgroundColor:"#edf1f7"}}>
+            <Col xs={12} sm={6} md={3} style={{paddingBottom:"3%"}}>  <Card  style={{backgroundColor:"#edf1f7"}}>
   <div>
           <FontAwesomeIcon icon={faBabyCarriage} size="lg" style={{ width: '120px', height: '120px' }} />
           </div>
@@ -51,7 +51,7 @@ const IconCard = () => {
 </Card.Text>
             </Card.Body>           
             </Card>            </Col>
-            <Col xs={12} sm={6} md={3}>   <Card  style={{backgroundColor:"#edf1f7"}}>
+            <Col xs={12} sm={6} md={3} style={{paddingBottom:"3%"}}>   <Card  style={{backgroundColor:"#edf1f7"}}>
    <div>
           <FontAwesomeIcon icon={faWifi} size="lg" style={{ width: '120px', height: '120px' }} />
           </div>

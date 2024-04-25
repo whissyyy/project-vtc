@@ -10,8 +10,11 @@
   .review {
     border: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+  padding-top: 2%;
+ }
+    
   
   .review h3 {
     margin-top: 0;
@@ -27,21 +30,13 @@
     padding: 5px;
   }
   
-  .submit-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-  }
+ 
   
-  .submit-button:hover {
-    background-color: #0056b3;
-  }
 
   .review-form {
     width: 25%;
     margin: auto;
+    
   } 
 
     .avisdiv{
@@ -58,6 +53,7 @@
   margin: auto;
   width: 100%;
   background-color: #edf1f7 ;
+  margin-bottom: 3%;
 
 }
 
