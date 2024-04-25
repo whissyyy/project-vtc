@@ -161,8 +161,8 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
                 <div className='bgimage'>
                 <form  ref={form} onSubmit={sendEmail}>
 
-                <Card  className="shadow p-4 mb-5 rounded transparent-card" >
-  <div className="container">
+                <Card  className="shadow p-4 mb-2 rounded transparent-card" >
+  <div className="containerform">
     <h3 className="text-center mb-4"></h3>
     <div className="row">
       <div className="col-md-6 mb-3">
@@ -250,7 +250,7 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
     checked={selectedOption === 'aller'}
     onChange={handleOptionChange}
 />
-<label className="btn btn-dark" htmlFor="option1">Aller</label>
+<label className="btt" htmlFor="option1">Aller</label>
 
 <input
     type="radio"
@@ -261,10 +261,10 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
     checked={selectedOption === 'retour'}
     onChange={handleOptionChange}
 />
-<label className="btn btn-dark mr-3" htmlFor="option2">Aller - Retour</label>
+<label className="btt" htmlFor="option2">Aller - Retour</label>
     </div>
     <div className="text-center mt-4">
-    <button className="btn btn-success btn-block" type="submit">Réserver</button>
+    <button style={{marginBottom:"5%"}} className="btn btn-success btn-block" type="submit">Réserver</button>
     </div>
   </div>
 </Card>

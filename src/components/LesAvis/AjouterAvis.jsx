@@ -9,16 +9,17 @@ import { getDatabase,ref, set ,push,get} from "firebase/database";
 import firebaseConfig from './Config'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 const notifyalert = () => toast.warn("You have already commented from this device.");
 const notifysuccess = () => toast.success("merci pour votre commentaire");
 const AjouterAvis = (onAddReview) => {
   const [hasCommented, setHasCommented] = useState(
     localStorage.getItem('hasCommented') === 'true'
   );
-    const [name, setName] = useState('');
+  const [name, setName] = useState('');
   const [comment, setComment] = useState('');
   const [rating, setRating] = useState(5);
+  const [id,setId]=useState("");
+  
   const handleStarsChange = (event, newValue) => {
     setRating(newValue);
   }
@@ -26,36 +27,44 @@ const AjouterAvis = (onAddReview) => {
   useEffect(() => {
     localStorage.setItem('hasCommented', hasCommented);
   }, [hasCommented]);
- 
+  
+  useEffect(() => {
+
+    if(localStorage.getItem('id') !== null) {
+      setId(localStorage.getItem('id'));
+    }
+  }, []);
+
+  useEffect(() => {
+      setId(localStorage.getItem('id',id));
+  }, [id]);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const today = new Date();
     const formattedDate = today.toISOString().slice(0, 16).replace('T', ' '); // yyyy-mm-dd hh:mm
-        let test = formattedDate+name;
-
+   let test = id;
+    if (!id) {
+      setId(formattedDate + name);
+      test = formattedDate + name;
+    }
+    console.log("localStorage.getItem('id') ",localStorage.getItem('id') )
     if ((hasCommented)&&(localStorage.getItem('id') !== test)) {
       notifyalert();
       return;
     }
+    localStorage.setItem('id',test)
+
+    
+    if (!name || !comment || !rating) return;
 
     localStorage.setItem('hasCommented', true);
     setHasCommented(true);
-    if (!name || !comment || !rating) return;
       const app = initializeApp(firebaseConfig);
 
     const database = getDatabase(app);
-    let  id="";
-    if (localStorage.getItem('id') == null) {
-       id = formattedDate+name;
-       localStorage.setItem('id', id);
-       console.log(localStorage.getItem('id'));
-    }else{
-      id=localStorage.getItem('id');
-      localStorage.setItem('id', id);
-    console.log(localStorage.getItem('id'));
-    }
 
-    set(ref(database, 'Reviews/' + id),{
+    set(ref(database, 'Reviews/' + test),{
       name: name,
       comment: comment,
       date: formattedDate,

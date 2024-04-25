@@ -108,6 +108,33 @@ margin: 8%;
   margin-right: 10px; /* Adjust the margin to your preference */
 }
 
+.containerform{
+ 
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 30px 0 rgba(0, 0, 0, 0.7);
+  
+
+}
+.btt{
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0); /* Couleur de la bordure */
+  color: rgb(255, 255, 255); /* Couleur du texte */
+  padding: 10px 20px; /* Espacement interne */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px; /* Coins arrondis */
+}
+
+.btt:hover{
+  background-color: black;
+  color: white;
+  border: none;
+}
 
 
 
