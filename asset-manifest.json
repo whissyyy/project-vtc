@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.925df36e.css",
-    "main.js": "/static/js/main.50e26f7e.js",
-    "static/media/mrc.png": "/static/media/mrc.140723118fa89594b0d4.png",
-    "static/media/Tesla-Model-X.jpg": "/static/media/Tesla-Model-X.56574dae66317f792f72.jpg",
-    "static/media/mercedes-class--s-black.jpg": "/static/media/mercedes-class--s-black.c9cc44de189e0b583c1d.jpg",
-    "static/media/mc-vito.jpg": "/static/media/mc-vito.f1c81751dea8d100ccb7.jpg",
-    "static/media/mercedes-benz-e.jpg": "/static/media/mercedes-benz-e.1646002e2eeb260e933b.jpg",
-    "index.html": "/index.html",
-    "main.925df36e.css.map": "/static/css/main.925df36e.css.map",
-    "main.50e26f7e.js.map": "/static/js/main.50e26f7e.js.map"
+    "main.css": "/project-vtc/static/css/main.b12adddd.css",
+    "main.js": "/project-vtc/static/js/main.1fceb3eb.js",
+    "static/media/mrc.png": "/project-vtc/static/media/mrc.140723118fa89594b0d4.png",
+    "static/media/Tesla-Model-X.jpg": "/project-vtc/static/media/Tesla-Model-X.56574dae66317f792f72.jpg",
+    "static/media/mercedes-class--s-black.jpg": "/project-vtc/static/media/mercedes-class--s-black.c9cc44de189e0b583c1d.jpg",
+    "static/media/mc-vito.jpg": "/project-vtc/static/media/mc-vito.f1c81751dea8d100ccb7.jpg",
+    "static/media/mercedes-benz-e.jpg": "/project-vtc/static/media/mercedes-benz-e.1646002e2eeb260e933b.jpg",
+    "index.html": "/project-vtc/index.html",
+    "main.b12adddd.css.map": "/project-vtc/static/css/main.b12adddd.css.map",
+    "main.1fceb3eb.js.map": "/project-vtc/static/js/main.1fceb3eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.925df36e.css",
-    "static/js/main.50e26f7e.js"
+    "static/css/main.b12adddd.css",
+    "static/js/main.1fceb3eb.js"
   ]
 }
