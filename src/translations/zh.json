@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "reservation": "预订",
+    "vehicles": "我们的车辆",
+    "reviews": "评价"
+  },
+  "footer": {
+    "reservation": "预订",
+    "vehicles": "我们的车辆",
+    "reviews": "评价"
+  },
+  "iconcard": {
+    "services": "车上服务",
+    "serviceDescription": "在我们的车辆上找到各种免费服务。",
+    "water": "瓶装水",
+    "waterDescription": "为您提供瓶装水和小吃。",
+    "luggage": "行李",
+    "luggageDescription": "携带您的行李不收取额外费用。",
+    "children": "儿童",
+    "childrenDescription": "提供免费婴儿座椅和儿童座椅，确保安全出行。",
+    "wifi": "WIFI",
+    "wifiDescription": "保持连接！在我们的车辆上可以使用互联网。"
+  },
+  "avis": {
+    "clientReviews": "客户评价",
+    "namePlaceholder": "您的姓名",
+    "commentPlaceholder": "您的评论",
+    "submitButton": "提交评价",
+    "rating":"评分",
+    "date":"日期"
+  },
+  "car":{
+    "title":"我们的车辆",
+    "paragraph":"我们的所有车辆都是最新的，并配备了所有设施，无论您是独自旅行还是与团队同行，都能确保舒适的旅程。"
+  },
+  "notification": {
+    "not-warn": "您已经评论过了",
+    "not-succ": "感谢您的评价。",
+    "not-succresv":"感谢您的预订。代理将尽快与您联系。"
+  },
+  "reservation": {
+    "heading": "现在预订专属司机：",
+    "submitButton": "预订",
+    "al":"单程",
+    "alr":"往返",
+    "retour":"返回",
+    "nom":"姓名：",
+    "prenom":"姓氏："
+  },
+  "footer":{
+    "LP":"快速链接",
+    "payment":"支付方式",
+    "tdr":"版权所有",
+    "cpar":"设计"
+  },
+  "UD":{
+    "adp":"出发地点：",
+    "adr":"目的地点：",
+    "dd":"出发日期：",
+    "hd":"出发时间："
+  },
+  "about": {
+    "paragraph1": "欢迎来到 Ultimate Driver。我们的团队全天候为您提供服务，满足您在蔚蓝海岸的所有交通需求。我们在整个地区提供服务，包括戛纳、安提布、尼斯、摩纳哥、圣特罗佩等地。我们拥有各种车型：8座大客车、轿车、大轿车、豪华SUV。坐在我们宽敞舒适的车辆上，由我们专业的英语司机驾驶，他们是当地人，熟悉我们的运营地区，确保您的安全。",
+    "paragraph2": "我们可以满足各种特殊需求：临时预订、半日或全日服务。我们也可以应要求携带您的宠物。此外，我们也提供婴儿座椅。在我们的车辆上，您将找到瓶装水、手机充电器和小吃。",
+    "paragraph3": "我们为您的机场出行提供便利。我们的司机会把您直接送到航站楼入口，或在尼斯机场接您，然后帮您处理行李。您只需坐在车上，舒适地享受旅程。",
+    "paragraph4": "我们还可以为您安排全区域的旅游观光游。我们也可以负责您在整个欧洲的长途旅行。",
+    "paragraph5": "请通过预订表、电话、WhatsApp或电子邮件与我们联系。Ultimate Driver将为您的每一个需求找到解决方案。"
+  }
+}

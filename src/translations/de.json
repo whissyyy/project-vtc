@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "reservation": "Reservierung",
+    "vehicles": "Unsere Fahrzeuge",
+    "reviews": "Bewertungen"
+  },
+  "footer": {
+    "reservation": "Reservierung",
+    "vehicles": "Unsere Fahrzeuge",
+    "reviews": "Bewertungen"
+  },
+  "iconcard": {
+    "services": "AN BORD DIENSTE",
+    "serviceDescription": "Finden Sie eine Auswahl kostenloser Dienste an Bord unserer Fahrzeuge.",
+    "water": "WASSERFLASCHEN",
+    "waterDescription": "Wasserflaschen und Snacks stehen zu Ihrer Verfügung.",
+    "luggage": "GEPÄCK",
+    "luggageDescription": "Keine zusätzlichen Gebühren für die Beförderung Ihres Gepäcks.",
+    "children": "KINDER",
+    "childrenDescription": "Kostenlose Kindersitze und Booster für sicheres Reisen.",
+    "wifi": "WLAN",
+    "wifiDescription": "Bleiben Sie verbunden! Sie finden Internet an Bord unserer Fahrzeuge."
+  },
+  "avis": {
+    "clientReviews": "Kundenbewertungen",
+    "namePlaceholder": "Ihr Name",
+    "commentPlaceholder": "Ihr Kommentar",
+    "submitButton": "Bewertung absenden",
+    "rating":"Bewertung",
+    "date":"Datum"
+  },
+  "car":{
+    "title":"Unsere Fahrzeuge",
+    "paragraph":"Alle unsere Fahrzeuge sind neu und komplett ausgestattet, um eine Reise in optimalen Komfort zu gewährleisten, egal ob Sie alleine oder in einer Gruppe reisen."
+  },
+  "notification": {
+    "not-warn": "Sie haben bereits kommentiert",
+    "not-succ": "Vielen Dank für Ihre Bewertung.",
+    "not-succresv":"Vielen Dank für Ihre Reservierung. Ein Agent wird sich bald mit Ihnen in Verbindung setzen."
+  },
+  "reservation": {
+    "heading": "Jetzt einen privaten Fahrer buchen:",
+    "submitButton": "Buchen",
+    "al":"One Way",
+    "alr":"Hin und Rück",
+    "retour":"Rückfahrt",
+    "nom":"Name:",
+    "prenom":"Vorname:"
+  },
+  "footer":{
+    "LP":"Schnelllinks",
+    "payment":"Zahlung",
+    "tdr":"Alle Rechte vorbehalten",
+    "cpar":"Entworfen von"
+  },
+  "UD":{
+    "adp":"Abfahrtsadresse:",
+    "adr":"Ankunftsadresse:",
+    "dd":"Abreisedatum:",
+    "hd":"Abfahrtszeit:"
+  },
+  "about": {
+    "paragraph1": "Willkommen bei Ultimate Driver. Unser Team steht Ihnen 24 Stunden am Tag, 7 Tage die Woche zur Verfügung, um alle Ihre Transportbedürfnisse an der Côte d'Azur zu erfüllen. Wir sind in der gesamten Region in Cannes, Antibes, Nizza, Monaco, Saint Tropez und vielen mehr präsent. Wir haben verschiedene Fahrzeugmodelle: 8-Sitzer-Van, Limousine, große Limousine, High-End-SUV. Genießen Sie einen Transfer in unseren geräumigen und komfortablen Fahrzeugen, die von einem unserer professionellen und englischsprachigen Fahrer gefahren werden, die Einheimische der Region sind und die Gegend, in der wir tätig sind, perfekt kennen und in voller Sicherheit operieren.",
+    "paragraph2": "Wir können uns an alle Arten von speziellen Anfragen anpassen: Last-Minute-Buchung, Halbtags- oder Ganztagsverfügbarkeit. Auf Anfrage akzeptieren wir auch Ihre Haustiere. Ebenso stellen wir bei Bedarf Kindersitze für Ihre Kinder bereit. An Bord unserer Fahrzeuge finden Sie Wasserflaschen, Handy-Ladegeräte und Snacks.",
+    "paragraph3": "Wir erleichtern Ihre Abreise oder Ankunft am Flughafen. Unsere Fahrer bringen Sie direkt zum Terminal oder begrüßen Sie bei Ihrer Ankunft am Flughafen Nizza dank unserer Akkreditierungen. Darüber hinaus kümmern sich unsere Fahrer um Ihr Gepäck. Sie müssen nur in das Fahrzeug einsteigen, was nach einer langen Reise am bequemsten ist.",
+    "paragraph4": "Wir können auch Sightseeing-Touren durch die gesamte Region organisieren, um Ihnen die Reize der Riviera und die zahlreichen Sehenswürdigkeiten vorzustellen. Wir können auch Ihre Langstreckenreisen durch ganz Europa durchführen.",
+    "paragraph5": "Zögern Sie nicht, uns über das Reservierungsformular oder telefonisch, per WhatsApp oder per E-Mail zu kontaktieren. Ultimate Driver kümmert sich darum, für jede Ihrer Anfragen eine Lösung zu finden."
+  }
+}

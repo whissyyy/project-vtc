@@ -26,10 +26,7 @@ const Main = () => {
           </div>
           <Footer/>
           
-{/*
-      <Home/>
-    <About/>
-  <Footer/>*/}
+
     </div>
   )
 }

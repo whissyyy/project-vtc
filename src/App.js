@@ -1,25 +1,20 @@
+// App.js
 import './App.css';
-import About from './pages/About';
-import Home from './pages/Home';
-
+import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './pages/Main';
-
 function App() {
+
+
   return (
     <div className="App">
-      <NavBar/>
-       <Routes>
-       <Route path="/" element={<Main />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Home" element={<Home />} />
-          
-       </Routes>
-      
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
     </div>
-    
   );
 }
 

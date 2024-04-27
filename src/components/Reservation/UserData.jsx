@@ -1,6 +1,7 @@
 import React from 'react';
 import AutocompleteCard from './autocompletecard';
 import "./UserData.css"
+import { useTranslation } from 'react-i18next';
 
 const UserData = ({ adrdpt, adrarv, date,todaydate,onDateChange,onAdrdptChange, onAdrarvChange,onTimeChange,time,instanceId}) => {
     const [addressSuggestions, setAddressSuggestions] = React.useState([]);
@@ -8,7 +9,8 @@ const UserData = ({ adrdpt, adrarv, date,todaydate,onDateChange,onAdrdptChange, 
     const [showAutocomplete, setShowAutocomplete] = React.useState(false);
     const [showAutocomplete2, setShowAutocomplete2] = React.useState(false);
     const API_KEY = 'b89b2faff9b448779ae8b30acd71eb4d';
- 
+    const { t } = useTranslation(); // Initialize the useTranslation hook
+
     
     const handleAdressClick = (formattedAddress) => {
         console.log("abc");
@@ -69,7 +71,7 @@ const UserData = ({ adrdpt, adrarv, date,todaydate,onDateChange,onAdrdptChange, 
                 <div>
                 <div className="input-group input-group-sm mb-3">
   <div className="input-group-prepend">
-    <span className="input-group-text" id="inputGroup-sizing-sm">Adresse départ : </span>
+    <span className="input-group-text" id="inputGroup-sizing-sm"> {t('UD.adp')}</span>
   </div>
                     <input
                         value={adrdpt}
@@ -97,7 +99,7 @@ const UserData = ({ adrdpt, adrarv, date,todaydate,onDateChange,onAdrdptChange, 
                 <div>
                 <div className="input-group input-group-sm mb-3">
   <div className="input-group-prepend">
-    <span className="input-group-text" id="inputGroup-sizing-sm">Adresse arrivée : </span>
+    <span className="input-group-text" id="inputGroup-sizing-sm">{t('UD.adr')}</span>
   </div>
                     <input
                         value={adrarv}
@@ -123,7 +125,7 @@ const UserData = ({ adrdpt, adrarv, date,todaydate,onDateChange,onAdrdptChange, 
             <div className="vtc-dateheure" >
             <div className="input-group input-group-sm mb-3">
   <div className="input-group-prepend">
-    <span className="input-group-text" id="inputGroup-sizing-sm">date départ</span>
+    <span className="input-group-text" id="inputGroup-sizing-sm">{t('UD.dd')}</span>
   </div>
   <input 
     className='form-control' 
@@ -137,7 +139,7 @@ const UserData = ({ adrdpt, adrarv, date,todaydate,onDateChange,onAdrdptChange, 
 </div>
 <div className="input-group input-group-sm mb-3">
   <div className="input-group-prepend">
-    <span className="input-group-text" id="inputGroup-sizing-sm">Heure départ</span>
+    <span className="input-group-text" id="inputGroup-sizing-sm">{t('UD.hd')}</span>
   </div>
   <input 
       className='form-control' 

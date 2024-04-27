@@ -13,12 +13,15 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
+import { useTranslation } from 'react-i18next'; // Import useTranslation hook
 
 
 
 
 export const Reservation = () => {
     const form = useRef();
+    const { t } = useTranslation(); // Initialize the useTranslation hook
+
     const [value, setValue] = useState();
     const today = new Date();
     const formattedDate = new Date(today).toISOString().split('T')[0] // yyyy-mm-dd
@@ -29,9 +32,9 @@ export const Reservation = () => {
     const [phone, setPhone] = useState('');
 
     const notifysuccess = () => {
-      toast.success("Merci pour votre réservation. Un agent vous contactera bientôt.",{position: "bottom-center",
-    });
+      toast.success(t('notification.not-succresv'), { position: "bottom-center" });
     };
+
     const handleNameChange = (event) => {
         const { name, value } = event.target;
         setFullName(prevState => ({
@@ -129,10 +132,7 @@ export const Reservation = () => {
         <div className="reservation-container ">
       
             <div className='bgt'>
-         
-           
-
-            <h1 className='ch12' style={{paddingTop:"1%"}}>Réserver Maintenant Un Chauffeur Priver : </h1>
+            <h1 className='ch12' style={{paddingTop:"1%"}}>{t('reservation.heading')}</h1>
 
                 <div className="row "  >
                 <div className="col pstyle  " style={{paddingTop:"1%"}}>
@@ -168,7 +168,7 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
       <div className="col-md-6 mb-3">
         <div className="input-group input-group-sm">
           <div className="input-group-prepend">
-            <span className="input-group-text">Nom :</span>
+            <span className="input-group-text">{t('reservation.nom')}</span>
           </div>
           <input
             type="text"
@@ -176,15 +176,17 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
             name="firstName"
             value={fullName.firstName}
             onChange={handleNameChange}
+            required
           />
         </div>
       </div>
       <div className="col-md-6 mb-3">
         <div className="input-group input-group-sm">
           <div className="input-group-prepend">
-            <span className="input-group-text">Prénom :</span>
+            <span className="input-group-text">{t('reservation.prenom')}</span>
           </div>
           <input
+          required
             type="text"
             className="form-control"
             name="lastName"
@@ -220,7 +222,7 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
     />
     {selectedOption === 'retour' && (
       <div>
-        <p style={{ color: "white", fontSize: "24px" ,fontWeight:"bold" }}>Retour</p>
+        <p style={{ color: "white", fontSize: "24px" ,fontWeight:"bold" }}> {t('reservation.retour')}</p>
       <UserData
         instanceId={2}
         adrdpt={userData2.adrdpt2}
@@ -250,7 +252,7 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
     checked={selectedOption === 'aller'}
     onChange={handleOptionChange}
 />
-<label className="btt" htmlFor="option1">Aller</label>
+<label className="btt" htmlFor="option1">{t('reservation.al')}</label>
 
 <input
     type="radio"
@@ -261,10 +263,10 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
     checked={selectedOption === 'retour'}
     onChange={handleOptionChange}
 />
-<label className="btt" htmlFor="option2">Aller - Retour</label>
+<label className="btt" htmlFor="option2"> {t('reservation.alr')}</label>
     </div>
     <div className="text-center mt-4">
-    <button style={{marginBottom:"5%"}} className="btn btn-success btn-block" type="submit">Réserver</button>
+    <button style={{marginBottom:"5%"}} className="btn btn-success btn-block" type="submit">{t('reservation.submitButton')}</button>
     </div>
   </div>
 </Card>

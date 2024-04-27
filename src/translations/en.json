@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "reservation": "Reservation",
+    "vehicles": "Our Vehicles",
+    "reviews": "Reviews"
+  },
+  "footer": {
+    "reservation": "Reservation",
+    "vehicles": "Our Vehicles",
+    "reviews": "Reviews"
+  },
+  "iconcard": {
+    "services": "ONBOARD SERVICES",
+    "serviceDescription": "Find a range of complimentary services onboard our vehicles.",
+    "water": "WATER BOTTLES",
+    "waterDescription": "Water bottles and snacks are available for you.",
+    "luggage": "LUGGAGE",
+    "luggageDescription": "No extra charges for transporting your luggage.",
+    "children": "CHILDREN",
+    "childrenDescription": "Free baby seats and boosters for safe travel.",
+    "wifi": "WIFI",
+    "wifiDescription": "Stay connected! You'll find internet onboard our vehicles."
+  },
+  "avis": {
+    "clientReviews": "Client Reviews",
+    "namePlaceholder": "Your Name",
+    "commentPlaceholder": "Your Comment",
+    "submitButton": "Submit Review",
+    "rating":"Rating",
+    "date":"On"
+  },
+  "car":{
+    "title":"Our Vehicles",
+    "paragraph":"All our vehicles are recent and fully equipped, ensuring a journey in optimal comfort, whether you are traveling alone or in a group."
+  },
+  "notification": {
+    "not-warn": "You have already commented",
+    "not-succ": "Thank you for your review.",
+    "not-succresv":"Thank you for your reservation. An agent will contact you soon."
+  },
+  "reservation": {
+    "heading": "Book Now a Private Driver:",
+    "submitButton": "Book",
+    "al":"One way",
+    "alr":"Round trip",
+    "retour":"Return",
+    "nom":"Name:",
+    "prenom":"First Name:"
+  },
+  "footer":{
+    "LP":"Quick Links",
+    "payment":"Payment",
+    "tdr":"All rights reserved",
+    "cpar":"Designed by"
+  },
+  "UD":{
+    "adp":"Pickup Address:",
+    "adr":"Drop-off Address:",
+    "dd":"Departure date:",
+    "hd":"Departure time:"
+  },
+  "about": {
+    "paragraph1": "Welcome to Ultimate Driver. Our team is available 24/7 to meet all your transportation needs on the French Riviera. We operate throughout the region in Cannes, Antibes, Nice, Monaco, Saint Tropez, and many more. We have various vehicle ranges: 8-seater van, sedan, large sedan, high-end SUV. Enjoy a transfer in our spacious and comfortable vehicles, driven by one of our professional and English-speaking chauffeurs, who are natives of the region and have a perfect knowledge of the area we operate in, in complete safety.",
+    "paragraph2": "We can adapt to all types of special requests: last-minute booking, half-day or full-day availability. Upon request, we also accept your pets. Likewise, we provide car seats for your children if needed. Onboard our vehicles, you will find water bottles, phone chargers, and snacks.",
+    "paragraph3": "We make your airport departure or arrival easier. Our chauffeurs will drop you off directly at the terminal entrance or welcome you upon your exit from Nice Airport, thanks to our accreditations. Moreover, our chauffeurs will handle your luggage. You just have to settle into the vehicle, which is most comfortable after a long journey.",
+    "paragraph4": "We can also organize sightseeing tours throughout the region to introduce you to the charms of the Riviera and the numerous must-see sites. We can also handle your long-distance travels throughout Europe.",
+    "paragraph5": "Feel free to contact us via the reservation form or by phone, WhatsApp, or email. Ultimate Driver takes care of finding a solution to each of your requests."
+  }
+}

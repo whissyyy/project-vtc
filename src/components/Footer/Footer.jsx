@@ -7,7 +7,10 @@ import CreditCardIcons from './CreditCardIcons';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import "./Footer.css"
+import { useTranslation } from 'react-i18next';
 export const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <div style={{color:'white', paddingTop:"2%"}}>
     <footer style={{backgroundColor:'#222'}}x>
@@ -25,23 +28,23 @@ export const Footer = () => {
         </Col>
         
         <Col>
-          <h2>Liens rapides</h2>
+          <h2> {t('footer.LP')}</h2>
           <div>
-          <Nav.Link style={{ cursor:"pointer" ,textDecoration: "underline"}} as={Link} to="Reservation" smooth={true} duration={100}>RESERVATION</Nav.Link>
-          <Nav.Link style={{ cursor:"pointer",textDecoration: "underline"}}  as={Link} to="Voitures" smooth={true} duration={100}>NOS VÉHICULES</Nav.Link>
-          <Nav.Link style={{ cursor:"pointer",textDecoration: "underline"}} as={Link} to="Avis" smooth={true} duration={100}>AVIS</Nav.Link>
+          <Nav.Link style={{ cursor:"pointer" ,textDecoration: "underline"}} as={Link} to="Reservation" smooth={true} duration={100}>{t('navbar.reservation')}</Nav.Link>
+          <Nav.Link style={{ cursor:"pointer",textDecoration: "underline"}}  as={Link} to="Voitures" smooth={true} duration={100}> {t('navbar.vehicles')}</Nav.Link>
+          <Nav.Link style={{ cursor:"pointer",textDecoration: "underline"}} as={Link} to="Avis" smooth={true} duration={100}>{t('navbar.reviews')}</Nav.Link>
 </div>
 
         </Col>
         <Col>
-          <h2>Payment</h2>
+          <h2> {t('footer.payment')}</h2>
           <CreditCardIcons />
         </Col>
       </Row>
       <div className="footer-bottom">
       </div>
 
-        &copy; 2024 | Tous droits réservés | <span>Conçu par <a href="#"> Ultimate Driver</a></span>
+        &copy; 2024 | {t('footer.tdr')} | <span>{t('footer.cpar')} <a href="#"> Ultimate Driver</a></span>
       </div>
     </footer>
     </div>

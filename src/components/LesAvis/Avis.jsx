@@ -6,9 +6,12 @@ import { useState,useEffect } from 'react';
 import firebaseConfig from './Config'
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref,get } from "firebase/database";
+import { useTranslation } from 'react-i18next';
+import i18n from '../../translations/translation';
 
 const Avis = () => {
   const [reviews, setReviews] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const app = initializeApp(firebaseConfig);
@@ -49,7 +52,7 @@ const Avis = () => {
   
   return (
     <section className="reviews-section">
-      <h2 style={{fontSize:"32px"}} className="section-heading ch1">Avis des clients</h2>
+<h2 style={{fontSize:"32px"}} className="section-heading ch1">{t('avis.clientReviews')}</h2>
       <div className="add-review-section">
         <AjouterAvis onAddReview={addReview} />
       </div>
@@ -57,9 +60,9 @@ const Avis = () => {
         <div key={index} className="review">
           <h3>{review.name}</h3>
           <p>{review.comment}</p>
-          <p>Rating: {review.rating}</p>
+          <p>{t('avis.rating')} :  {review.rating}</p>
           <AviStars nbstarts={review.rating} />
-          <p>Le: {review.date}</p>
+          <p>{t('avis.date')} : {review.date}</p>
         </div>
       ))}
     </section>

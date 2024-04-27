@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "reservation": "Reserva",
+    "vehicles": "Nossos Veículos",
+    "reviews": "Avaliações"
+  },
+  "footer": {
+    "reservation": "Reserva",
+    "vehicles": "Nossos Veículos",
+    "reviews": "Avaliações"
+  },
+  "iconcard": {
+    "services": "SERVIÇOS A BORDO",
+    "serviceDescription": "Encontre uma variedade de serviços gratuitos a bordo de nossos veículos.",
+    "water": "GARRAFAS DE ÁGUA",
+    "waterDescription": "Garrafas de água e lanches estão disponíveis para você.",
+    "luggage": "BAGAGEM",
+    "luggageDescription": "Sem taxas extras para transportar sua bagagem.",
+    "children": "CRIANÇAS",
+    "childrenDescription": "Cadeiras de bebê e booster gratuitos para viajar com segurança.",
+    "wifi": "WIFI",
+    "wifiDescription": "Permaneça conectado! Você encontrará internet a bordo de nossos veículos."
+  },
+  "avis": {
+    "clientReviews": "Avaliações de Clientes",
+    "namePlaceholder": "Seu Nome",
+    "commentPlaceholder": "Seu Comentário",
+    "submitButton": "Enviar Avaliação",
+    "rating":"Classificação",
+    "date":"Data"
+  },
+  "car":{
+    "title":"Nossos Veículos",
+    "paragraph":"Todos os nossos veículos são novos e totalmente equipados, garantindo uma viagem em conforto ótimo, quer viaje sozinho ou em grupo."
+  },
+  "notification": {
+    "not-warn": "Você já comentou",
+    "not-succ": "Obrigado pela sua avaliação.",
+    "not-succresv":"Obrigado pela sua reserva. Um agente entrará em contato em breve."
+  },
+  "reservation": {
+    "heading": "Reserve Agora um Motorista Particular:",
+    "submitButton": "Reservar",
+    "al":"Apenas Ida",
+    "alr":"Ida e Volta",
+    "retour":"Retorno",
+    "nom":"Nome:",
+    "prenom":"Sobrenome:"
+  },
+  "footer":{
+    "LP":"Links Rápidos",
+    "payment":"Pagamento",
+    "tdr":"Todos os direitos reservados",
+    "cpar":"Projetado por"
+  },
+  "UD":{
+    "adp":"Endereço de Partida:",
+    "adr":"Endereço de Chegada:",
+    "dd":"Data de Partida:",
+    "hd":"Hora de Partida:"
+  },
+  "about": {
+    "paragraph1": "Bem-vindo ao Ultimate Driver. Nossa equipe está disponível 24 horas por dia, 7 dias por semana, para atender a todas as suas necessidades de transporte na Costa Azul. Operamos em toda a região, em Cannes, Antibes, Nice, Mônaco, Saint Tropez e muitos outros lugares. Temos diversas opções de veículos: van de 8 lugares, sedã, sedã grande, SUV de luxo. Desfrute de uma viagem em nossos veículos espaçosos e confortáveis, conduzidos por um de nossos motoristas profissionais e fluentes em inglês, nativos da região e com amplo conhecimento da área em que atuamos, tudo isso com total segurança.",
+    "paragraph2": "Podemos nos adaptar a todos os tipos de pedidos especiais: reservas de última hora, disponibilidade por meio dia ou dia inteiro. Também aceitamos seus animais de estimação, mediante solicitação. Além disso, oferecemos cadeirinhas de bebê gratuitas para seus filhos, se necessário. A bordo de nossos veículos, você encontrará garrafas de água, carregadores de celular e lanches.",
+    "paragraph3": "Facilitamos sua saída ou chegada ao aeroporto. Nossos motoristas o deixarão diretamente na entrada do terminal ou o receberão assim que você sair do Aeroporto de Nice, graças às nossas credenciais. Além disso, nossos motoristas cuidarão de sua bagagem. Tudo o que você precisa fazer é se acomodar no veículo, o que é muito confortável após uma longa viagem.",
+    "paragraph4": "Também podemos organizar passeios turísticos por toda a região para que você conheça os encantos da Riviera e as inúmeras atrações imperdíveis. Além disso, podemos cuidar de suas viagens de longa distância por toda a Europa.",
+    "paragraph5": "Não hesite em nos contatar através do formulário de reserva, telefone, WhatsApp ou e-mail. O Ultimate Driver se encarregará de encontrar uma solução para cada uma de suas solicitações."
+  }
+}
