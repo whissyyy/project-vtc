@@ -1,5 +1,5 @@
 {
-  "name": "project-vtc",
+  "name": "Ultimate Drivers",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,6 +21,8 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "react-helmet": "^6.1.0",
     "react-i18next": "^14.1.1",
     "react-international-phone": "^4.2.6",
     "react-native-paper": "^5.12.3",

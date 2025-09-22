@@ -31,7 +31,10 @@ function NavBar() {
     <Navbar expand="lg" style={{ backgroundColor: 'grey' }}>
       <Container>
         <Navbar.Brand>
-          <img src={dd} style={{ width: '120px' }} alt="logo" />
+        <Nav.Link as={Link} to="About" smooth={true} duration={500}   style={{ cursor: 'pointer' }}
+        >
+        <img src={dd} style={{ width: '120px' }} alt="Ultimate Drivers" />
+          </Nav.Link>
         </Navbar.Brand>
         <Dropdown className="vtc-language float-lg-right">
             <Dropdown.Toggle variant="secondary" id="dropdown-basic">
@@ -52,14 +55,17 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navmrg">
-            <Nav.Link style={{ cursor: 'pointer' }} as={Link} to="Reservation" smooth={true} duration={100}>
-              {t('navbar.reservation')}
+          <Nav.Link as={Link} to="Reservation" smooth={true} duration={500}   style={{ cursor: 'pointer' }}
+          >
+  {t('navbar.reservation')}
+</Nav.Link>
+<Nav.Link as={Link} to="Voitures" smooth={true} duration={500}   style={{ cursor: 'pointer' }}
+>
+{t('navbar.vehicles')}
             </Nav.Link>
-            <Nav.Link style={{ cursor: 'pointer' }} as={Link} to="Voitures" smooth={true} duration={100}>
-              {t('navbar.vehicles')}
-            </Nav.Link>
-            <Nav.Link style={{ cursor: 'pointer' }} as={Link} to="Avis" smooth={true} duration={100}>
-              {t('navbar.reviews')}
+            <Nav.Link as={Link} to="Avis" smooth={true} duration={500}   style={{ cursor: 'pointer' }}
+            >
+            {t('navbar.reviews')}
             </Nav.Link>
             <Nav.Link onClick={handlePhoneNumberClick}>
               <FontAwesomeIcon icon={faPhone} style={{ marginRight: '5px' }} />
@@ -73,7 +79,6 @@ function NavBar() {
               />
             </Nav.Link>
           </Nav>
-        
         </Navbar.Collapse>
       
       </Container>

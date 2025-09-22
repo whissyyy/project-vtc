@@ -30,11 +30,18 @@ export const Footer = () => {
         <Col>
           <h2> {t('footer.LP')}</h2>
           <div>
-          <Nav.Link style={{ cursor:"pointer" ,textDecoration: "underline"}} as={Link} to="Reservation" smooth={true} duration={100}>{t('navbar.reservation')}</Nav.Link>
-          <Nav.Link style={{ cursor:"pointer",textDecoration: "underline"}}  as={Link} to="Voitures" smooth={true} duration={100}> {t('navbar.vehicles')}</Nav.Link>
-          <Nav.Link style={{ cursor:"pointer",textDecoration: "underline"}} as={Link} to="Avis" smooth={true} duration={100}>{t('navbar.reviews')}</Nav.Link>
-</div>
-
+          <Nav.Link as={Link} to="Reservation" smooth={true} duration={500}   style={{ cursor: 'pointer' }}
+          >
+  {t('navbar.reservation')}
+</Nav.Link>
+<Nav.Link as={Link} to="Voitures" smooth={true} duration={500}   style={{ cursor: 'pointer' }}
+>
+{t('navbar.vehicles')}
+            </Nav.Link>
+            <Nav.Link as={Link} to="Avis" smooth={true} duration={500}   style={{ cursor: 'pointer' }}
+            >
+            {t('navbar.reviews')}
+            </Nav.Link></div>
         </Col>
         <Col>
           <h2> {t('footer.payment')}</h2>

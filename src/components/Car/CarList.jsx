@@ -16,7 +16,7 @@ const CarList = () => {
     {
       image_path: im2,
       title: "GRANDE BERLINE",
-      description: "Mercedes Classe E\n, Tesla Model S\n, BMW Série 5\nM, ercedes Classe S"
+      description: "Mercedes Classe E\n, Tesla Model S\n, BMW Série 5\n,Mercedes Classe S"
     },
     {
       image_path: im3,
@@ -26,7 +26,7 @@ const CarList = () => {
     {
       image_path: im4,
       title: "VAN",
-      description: "Mercedes Classe V\nToyota Proace Verso"
+      description: "Mercedes Classe V , \nToyota Proace Verso"
     }
   ];
 
@@ -37,7 +37,7 @@ const CarList = () => {
     <Col key={index} xs={12} lg={3}>
       <CarCard
         imagePath={car.image_path}
-        title={car.title}
+        alt={car.title}
         description={car.description}
       />
     </Col>

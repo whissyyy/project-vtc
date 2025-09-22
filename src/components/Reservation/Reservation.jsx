@@ -8,11 +8,12 @@ import { PhoneInput } from 'react-international-phone';
 import 'react-international-phone/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
 import "./mrc.png";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-
+import ContactButtons from './ReservationB'
 import { useTranslation } from 'react-i18next'; // Import useTranslation hook
 
 
@@ -137,22 +138,7 @@ export const Reservation = () => {
                 <div className="row "  >
                 <div className="col pstyle  " style={{paddingTop:"1%"}}>
                     <div className='res'>
-                    <div id="vtc-reservation-nice" style={{paddingBottom:"2%",marginTop:"2%"}}>
-                    <a style={{ fontSize: "28px" }} className="btn btn-outline-dark btn-block" href="tel:+330769575319">
-    <FontAwesomeIcon icon={faPhone} size="lg" />
-    +33 7.695.753.19
-</a>
-
-
-
-</div>
-<a style={{ fontSize: "28px" }} className="btn btn-outline-dark btn-block" href="tel:0769575319" >
-    <FontAwesomeIcon icon={faPhone} size="lg" />   07.695.753.19
-</a>
-<br/>
-<a style={{marginTop:"2%"}}className="btn btn-success btn-block" href="https://wa.me/+330769575319" >
-WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,marginRight: "3%", height: '20px' }} />
-</a>
+                    <ContactButtons/>
          
           </div> 
 </div>
@@ -266,7 +252,7 @@ WhatsApp<FontAwesomeIcon icon={faWhatsapp} size="lg" style={{width:"120" ,margin
 <label className="btt" htmlFor="option2"> {t('reservation.alr')}</label>
     </div>
     <div className="text-center mt-4">
-    <button style={{marginBottom:"5%"}} className="btn btn-success btn-block" type="submit">{t('reservation.submitButton')}</button>
+    <button style={{marginBottom:"5%",fontWeight:"bold",fontSize: "24px"}} className="btn btn-success btn-block" type="submit">{t('reservation.submitButton')}</button>
     </div>
   </div>
 </Card>
